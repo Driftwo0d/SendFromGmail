@@ -1,4 +1,4 @@
-package eu.gpartner;
+package com.github.driftwo0d;
 
 import java.awt.Desktop;
 import java.io.ByteArrayOutputStream;
@@ -45,8 +45,8 @@ import joptsimple.OptionSet;
 public class SendFromGmail {
 
 	private static final String APPLICATION_NAME = "SendFromGmail";
-	private static final String CLIENT_ID = "46470081136-cpurg1fcb6rd3cs7crj4jrm658omkuak.apps.googleusercontent.com";
-	private static final String CLIENT_SECRET = "0eJBAXHZrj3Sz9dmQe1AvpDp";
+	private static final String CLIENT_ID = "<CLIENT-ID>";
+	private static final String CLIENT_SECRET = "<CLIENT-SECRET>";
 	private static final List<String> SCOPES = Arrays.asList(GmailScopes.GMAIL_COMPOSE);
 	private static final File DATA_STORE_DIRECTORY = new java.io.File(System.getProperty("user.home"), ".store/"+APPLICATION_NAME);
 	
